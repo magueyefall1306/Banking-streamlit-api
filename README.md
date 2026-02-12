@@ -2,25 +2,25 @@
 
 Application web métier pour interagir avec l'API Banking Transactions.
 
-## 📋 Fonctionnalités
+##  Fonctionnalités
 
-### 📈 Vue d'ensemble
+###  Vue d'ensemble
 - Statistiques globales (total transactions, taux de fraude, montant moyen)
 - Graphiques de répartition par type
 - Analyse de la fraude par type
 
-### 💳 Transactions
+### Transactions
 - Filtrage par type et statut de fraude
 - Recherche avancée
 - Affichage tabulaire des résultats
 - Statistiques rapides sur les résultats
 
-### 🚨 Détection de Fraude
+###  Détection de Fraude
 - Résumé global de la fraude
 - Métriques de performance (précision, rappel)
 - Analyse comparative par type de transaction
 
-### 👥 Clients
+###  Clients
 - Top clients par volume de transactions
 - Graphiques de classement
 - Recherche de profil client individuel
@@ -32,19 +32,14 @@ Application web métier pour interagir avec l'API Banking Transactions.
 - Jauge de risque visuelle
 - Recommandations automatiques
 
-## 🚀 Installation
+## Installation
 
 ### Prérequis
 - Python 3.12+
 - L'API Banking Transactions doit être lancée sur http://localhost:8000
 
-### Installation des dépendances
 
-```bash
-pip install -r requirements.txt
-```
-
-## 🎯 Lancement
+##  Lancement
 
 ### 1. Démarrer l'API (dans un terminal)
 
@@ -80,7 +75,7 @@ Utilisez la barre latérale pour naviguer entre les différentes pages :
 
 1. Aller dans **💳 Transactions**
 2. Sélectionner "Frauduleux" dans le filtre Fraude
-3. Cliquer sur "🔍 Rechercher"
+3. Cliquer sur " Rechercher"
 
 #### Analyser un Client
 
@@ -107,16 +102,6 @@ L'application propose :
 - 🎯 Interface intuitive
 - 📱 Design responsive
 
-## 🔧 Configuration
-
-### Changer l'URL de l'API
-
-Si votre API tourne sur un autre port, modifiez la ligne 20 de `app.py` :
-
-```python
-API_BASE_URL = "http://localhost:8000/api"  # Changer ici
-```
-
 ## 📊 Dépendances
 
 - **streamlit** - Framework web
@@ -124,7 +109,6 @@ API_BASE_URL = "http://localhost:8000/api"  # Changer ici
 - **pandas** - Manipulation de données
 - **plotly** - Visualisations interactives
 
-## 🐛 Dépannage
 
 ### L'API n'est pas accessible
 
@@ -154,8 +138,7 @@ streamlit run app.py --server.headless=false
 
 ```
 banking-streamlit-app/
-├── app.py              # Application principale
-├── requirements.txt    # Dépendances
+├── app.py              # Application principale  
 └── README.md          # Ce fichier
 ```
 
