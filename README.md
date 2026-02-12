@@ -117,12 +117,6 @@ Vérifiez que :
 2. Le port 8000 n'est pas bloqué
 3. L'URL dans `app.py` est correcte
 
-### Erreur au lancement
-
-```bash
-# Réinstallez les dépendances
-pip install -r requirements.txt --force-reinstall
-
 # Vérifiez la version de Python
 python --version  # Doit être 3.12+
 ```
