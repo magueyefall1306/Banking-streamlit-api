@@ -26,7 +26,7 @@ Application web métier pour interagir avec l'API Banking Transactions.
 - Recherche de profil client individuel
 - Statistiques détaillées par client
 
-### 🔮 Prédiction de Fraude
+### Prédiction de Fraude
 - Interface de saisie de transaction
 - Prédiction en temps réel
 - Jauge de risque visuelle
@@ -57,50 +57,50 @@ streamlit run app.py
 
 L'application s'ouvrira automatiquement dans votre navigateur sur http://localhost:8501
 
-## 📱 Utilisation
+## Utilisation
 
 ### Navigation
 
 Utilisez la barre latérale pour naviguer entre les différentes pages :
 
-1. **📈 Vue d'ensemble** - Dashboard principal avec KPIs
-2. **💳 Transactions** - Explorer et filtrer les transactions
-3. **🚨 Détection de Fraude** - Analyser les fraudes détectées
-4. **👥 Clients** - Voir les top clients et rechercher des profils
-5. **🔮 Prédiction de Fraude** - Tester le modèle de prédiction
+1. **Vue d'ensemble** - Dashboard principal avec KPIs
+2. **Transactions** - Explorer et filtrer les transactions
+3. **Détection de Fraude** - Analyser les fraudes détectées
+4. **Clients** - Voir les top clients et rechercher des profils
+5. **Prédiction de Fraude** - Tester le modèle de prédiction
 
 ### Exemples d'Utilisation
 
 #### Rechercher des Transactions Frauduleuses
 
-1. Aller dans **💳 Transactions**
+1. Aller dans **Transactions**
 2. Sélectionner "Frauduleux" dans le filtre Fraude
 3. Cliquer sur " Rechercher"
 
 #### Analyser un Client
 
-1. Aller dans **👥 Clients**
+1. Aller dans **Clients**
 2. Descendre à "🔍 Rechercher un Client"
 3. Entrer l'ID (ex: C1556)
 4. Cliquer sur "Rechercher"
 
 #### Prédire une Fraude
 
-1. Aller dans **🔮 Prédiction de Fraude**
+1. Aller dans **Prédiction de Fraude**
 2. Remplir les champs :
    - Type : TRANSFER
    - Montant : 250000
    - Ancien Solde : 300000
    - Nouveau Solde : 50000
-3. Cliquer sur "🎯 Prédire"
+3. Cliquer sur "Prédire"
 
-## 🎨 Captures d'écran
+## Captures d'écran
 
 L'application propose :
-- 📊 Graphiques interactifs (Plotly)
-- 📈 KPIs en temps réel
-- 🎯 Interface intuitive
-- 📱 Design responsive
+- Graphiques interactifs (Plotly)
+- KPIs en temps réel
+- Interface intuitive
+- Design responsive
 
 ## 📊 Dépendances
 
@@ -128,7 +128,7 @@ python --version  # Doit être 3.12+
 streamlit run app.py --server.headless=false
 ```
 
-## 📝 Structure
+## Structure
 
 ```
 banking-streamlit-app/
@@ -136,15 +136,15 @@ banking-streamlit-app/
 └── README.md          # Ce fichier
 ```
 
-## 🎓 Points Bonus
+## Points Bonus
 
 Cette application permet d'obtenir le **point bonus Streamlit** du projet :
-- ✅ Application web métier séparée
-- ✅ Interface complète pour tester l'API
-- ✅ Visualisations graphiques
-- ✅ Interactions utilisateur
+- Application web métier séparée
+- Interface complète pour tester l'API
+- Visualisations graphiques
+- Interactions utilisateur
 
-## 📞 Support
+## Support
 
 En cas de problème :
 1. Vérifiez que l'API fonctionne
